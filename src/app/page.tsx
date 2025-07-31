@@ -5,7 +5,7 @@ import { Services, Stats } from '@/components/ui/services';
 import { AestheticProcedures } from '@/components/ui/aesthetic-procedures';
 import { ContactForm } from '@/components/ui/contact-form';
 import ScrollHeroDemo from '@/components/ui/scroll-hero-demo';
-import { BlogSection } from '@/components/ui/blog-section';
+import { BlogRichPreview } from '@/components/ui/blog-section-with-rich-preview';
 
 const HomePage = () => {
   return (
@@ -14,7 +14,7 @@ const HomePage = () => {
       <AboutUs />
       <Services />
       <AestheticProcedures />
-      <BlogSection />
+      <BlogRichPreview />
       <ScrollHeroDemo />
       <ContactForm />
     </main>
